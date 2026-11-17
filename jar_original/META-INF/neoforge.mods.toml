@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="sporejeifix"
+version="1.0.0"
+displayName="Spore JEI Fix"
+authors="LuminaCherry"
+description='''Restores JEI recipe transfer for the Fungal Infection: Spore Surgery Table.'''
+
+[[dependencies.sporejeifix]]
+modId="neoforge"
+type="required"
+versionRange="[1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.sporejeifix]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.sporejeifix]]
+modId="spore"
+type="required"
+versionRange="[2.2.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.sporejeifix]]
+modId="jei"
+type="required"
+versionRange="[19.52.0,)"
+ordering="AFTER"
+side="CLIENT"
